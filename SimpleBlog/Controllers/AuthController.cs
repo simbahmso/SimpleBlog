@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using System.Web.Security;
 using SimpleBlog.ViewModels;
 
 namespace SimpleBlog.Controllers
@@ -20,11 +21,14 @@ namespace SimpleBlog.Controllers
             if (!ModelState.IsValid)
                 return View(form);
 
-            if (form.Username != "rainbow dash")
-            {
-                ModelState.AddModelError("Username", "Username or password isn't 20% cooler.");
-                return View(form); 
-            } 
+            FormsAuthentication.SetAuthCookie(form.Username, true);
+
+
+//            if (form.Username != "rainbow dash")
+//            {
+//                ModelState.AddModelError("Username", "Username or password isn't 20% cooler.");
+//                return View(form); 
+//            } 
 
             return Content("The form is valid!");
         }
