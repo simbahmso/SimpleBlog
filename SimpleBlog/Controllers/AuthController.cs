@@ -21,7 +21,9 @@ namespace SimpleBlog.Controllers
         [HttpPost]
         public ActionResult Login(AuthLogin form)
         {
-            return View(form);
+            if (!ModelState.IsValid)
+                return View(form);
+            return Content("The form is valid!");
         }
     }   
 }
