@@ -6,6 +6,12 @@ namespace SimpleBlog.Controllers
 {
     public class AuthController : Controller
     {
+        public ActionResult Logout()
+        {
+            FormsAuthentication.SignOut();
+            return RedirectToRoute("home");
+        }
+
         // GET: Auth
         public ActionResult Login()
         {
