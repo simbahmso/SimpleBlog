@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using SimpleBlog.ViewModels;
 
 namespace SimpleBlog.Controllers
@@ -27,7 +23,7 @@ namespace SimpleBlog.Controllers
             if (form.Username != "rainbow dash")
             {
                 ModelState.AddModelError("Username", "Username or password isn't 20% cooler.");
-                return View(form);
+                return View(form); 
             } 
 
             return Content("The form is valid!");
