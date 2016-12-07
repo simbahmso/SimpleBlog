@@ -1,14 +1,25 @@
-﻿
+﻿@model SimpleBlog.ViewModels.AuthLogin
+
 @{
     ViewBag.Title = "Login";
 }
 
 <h3>This is the LOGIN View!</h3>
-<p>
-    <a href="@Url.RouteUrl("Index")">Click</a> to see Posts!
-</p>
 
-<p>
-    @Html.RouteLink("Click here", "Index") to see Posts!
-</p>
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.LabelFor(x => x.Username)
+        @Html.EditorFor(x => x.Username)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Password)
+        @Html.EditorFor(x => x.Password)
+    </div>
+
+    <div>
+        <input type="submit" value="Login"/>
+    </div>
+}
 
