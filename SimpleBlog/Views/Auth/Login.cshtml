@@ -1,8 +1,12 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Login";
 }
-    <p>
-        <a href="@Url.RouteUrl("Index")">Click</a> to see Posts!
-    </p>
+<p>
+    <a href="@Url.RouteUrl("Index")">Click</a> to see Posts!
+</p>
+
+<p>
+    @Html.RouteLink("Click here", "Index") to see Posts!
+</p>
 
