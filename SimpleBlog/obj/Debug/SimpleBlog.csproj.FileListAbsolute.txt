@@ -66,3 +66,4 @@ C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\bin\WebGrease.dll
 C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\bin\Antlr3.Runtime.pdb
 C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\bin\Newtonsoft.Json.xml
 C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\bin\System.Web.Optimization.xml
+C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.csprojResolveAssemblyReference.cache
