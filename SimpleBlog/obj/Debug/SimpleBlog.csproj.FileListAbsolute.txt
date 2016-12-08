@@ -57,7 +57,6 @@ C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\bin\roslyn\System.IO.FileSystem.dll
 C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\bin\roslyn\System.IO.FileSystem.Primitives.dll
 C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\bin\roslyn\vbc.exe.config
 C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\bin\roslyn\vbc.rsp
-C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.csprojResolveAssemblyReference.cache
 C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\bin\Antlr3.Runtime.dll
 C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\bin\Microsoft.Web.Optimization.dll
 C:\PROJECTS - .Net MVC\SimpleBlog\SimpleBlog\bin\Newtonsoft.Json.dll

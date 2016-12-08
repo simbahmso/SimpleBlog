@@ -12,7 +12,7 @@ namespace SimpleBlog.Areas.Admin.Controllers
         [Authorize(Roles = "admin")]
         public ActionResult Index()
         {
-            return Content("USERS!!");
+            return View();
         }
     }
 }
